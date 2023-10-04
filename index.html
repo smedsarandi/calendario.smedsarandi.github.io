@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Evo Calendar</title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Simple Modern-looking Event Calendar Plugin">
+    <meta name="keywords" content="jQuery, Plugin, Event, Calendar, EvoCalendar">
+    <meta name="author" content="Edlyn Villegas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="icon" href="favicon.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./evo-calendar/css/evo-calendar.min.css">
+    <link rel="stylesheet" type="text/css" href="./evo-calendar/css/evo-calendar.midnight-blue.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="./smed/smed.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container clearfix">
+            <h1 class="title" data-go="#top" title="Oh, hi! :)"><span>evo</span>calendar</h1>
+            <ul>
+                <li data-go="#themes">
+                    <a>Themes</a>
+                </li>
+                <li data-go="#demos">
+                    <a>Demo</a>
+                </li>
+                <li data-go="#usage">
+                    <a>Usage</a>
+                </li>
+                <li data-go="#settings">
+                    <a>Settings</a>
+                </li>
+                <li>
+                    <a href="https://github.com/edlynvillegas/evo-calendar" target="_blank" title="get it on github">Github</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="main-container">
+            <section id="demos">
+                <div class="section-content">
+                    <div class="console-log">
+                        <div class="log-content">
+                            <div class="--noshadow" id="demoEvoCalendar"></div>
+                        </div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="btn-action" id="addBtn">ADD EVENT</button>
+                        <button class="btn-action" id="removeBtn" disabled>REMOVE EVENT</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="./evo-calendar/js/evo-calendar.min.js"></script>
+    <script src="./smed/smed.js"></script>
+</body>
+</html>
